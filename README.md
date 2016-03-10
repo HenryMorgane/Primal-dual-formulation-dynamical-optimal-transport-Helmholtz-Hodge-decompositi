@@ -1,1 +1,1 @@
-# Primal-dual-formulation-dynamical-optimal-transport-Helmholtz-Hodge-decompositi
+# Primal-dual-formulation-optimal-transport-Helmholtz-Hodge-decomposition

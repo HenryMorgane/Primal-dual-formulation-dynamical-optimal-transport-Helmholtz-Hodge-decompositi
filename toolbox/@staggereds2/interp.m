@@ -1,0 +1,9 @@
+function V = interp(U)
+
+   %% 3D field %%
+   V          = cat(4, ...
+                    U.M{1}(1:end-1,:,:) + U.M{1}(2:end,:,:), ...
+                    U.M{2}(:,1:end-1,:) + U.M{2}(:,2:end,:), ...
+                    U.M{3}(:,:,1:end-1) + U.M{3}(:,:,2:end));
+
+V             = V/2;
